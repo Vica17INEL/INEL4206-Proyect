@@ -1,7 +1,9 @@
 # INEL4206-Project
 
-#Introduction
+# Introduction:
+
 	The project consists of having an ESP32 that can locate the position of a trolley constantly while publishing that information in the cloud.
+	
 1.	Create a code that permits the ESP32 to locate a trolley.
 2.	Connect the ESP32 to Wi-Fi using the Wi-Fi library functions and pubsubclient.
 3.	Create an online cloud server.
@@ -11,14 +13,14 @@
 7.	Create an interface using the dashboard nodes and dashboard option on Node-red.
 8.	Create a shortcut in our smartphone to access the Node-red dashboard by voice commands.
 
-##Software needed:
+## Software needed:
 1.	GitHub
 2.	Visual studio code (CH340 drivers, Platform IO and C/C++ compilers)
 3.	Node-red
 4.	Ubuntu
 5.	Aedes MQTT
 
-##Needed materials:
+## Needed materials:
 1.	EP32 microcontroller
 2.	Breadboard
 3.	USB 2.0 – USB mini cable
@@ -28,7 +30,7 @@
 7.	Two 1.5v batteries
 8.	Connecting cables
 
-##Instructions:
+## Instructions:
 *	Start
 Before starting the project, you need to have completed all the requirements:
 -	Have the ESP32 microcontroller with all the materials needed.
