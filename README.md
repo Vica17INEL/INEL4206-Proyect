@@ -46,8 +46,8 @@ Before starting the project, you need to have completed all the requirements:
 -	Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
 -	Connect the ESP32 to Wi-Fi.
 -	Create a server in the cloud:
-*		Must create an AWS account and buy a remote machine.
-*		Must create an Ubuntu to add the IP address that’s going to be used.
+-		Must create an AWS account and buy a remote machine.
+-		Must create an Ubuntu to add the IP address that’s going to be used.
 
 ### Create the safety keys
 -	This is going to allow you to control the server with your computer.
