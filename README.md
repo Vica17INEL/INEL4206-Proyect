@@ -1,10 +1,5 @@
 # INEL4206-Project
 
-#include "header.h"
-
-int main (void)
-{
-
 #Introduction
 	The project consists of having an ESP32 that can locate the position of a trolley constantly while publishing that information in the cloud.
 1.	Create a code that permits the ESP32 to locate a trolley.
