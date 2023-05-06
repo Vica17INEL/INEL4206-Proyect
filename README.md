@@ -43,25 +43,25 @@ Before starting the project, you need to have completed all the requirements:
 -	AWS server.
 
 ### How to upload the code to the cloud
-	Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
-	Connect the ESP32 to Wi-Fi.
-	Create a server in the cloud.
--	Must create an AWS account and buy a remote machine.
--	Must create an Ubuntu to add the IP address that’s going to be used.
+-	Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
+-	Connect the ESP32 to Wi-Fi.
+-	Create a server in the cloud:
+-		Must create an AWS account and buy a remote machine.
+-		Must create an Ubuntu to add the IP address that’s going to be used.
 
 ### Create the safety keys
 -	This is going to allow you to control the server with your computer.
-	Enter the server through your computer.
+-	Enter the server through your computer.
 -	Once you manage to get access you can start to download node-red.
 -	Download the admins packs that come with node-red.
 -	Open node-red in your browser utilizing 34.199.250.106:1880.
-	Open node red.
+-	Open node red.
 -	Once it’s open, create a flow that uses the aedes MQTT broker to receive the data collected by the ESP32.
-	Modify your code.
+-	Modify your code.
 -	add the pubsubclient library in your code so you can connect to the MQTT broker.
-•	Running the code
-	Build and upload the code to the ESP32 by connecting the device to your computer using the USB to USB mini cable.
-	Activate the shortcut in your smartphone to get the outputs, in our case we activate our shortcut by asking to our apple smartphone “Hey Siri, Where is my Trolley?”.
+-	Running the code
+-	Build and upload the code to the ESP32 by connecting the device to your computer using the USB to USB mini cable.
+-	Activate the shortcut in your smartphone to get the outputs, in our case we activate our shortcut by asking to our apple smartphone “Hey Siri, Where is my Trolley?”.
 
 ## Powering our ESP32
 
