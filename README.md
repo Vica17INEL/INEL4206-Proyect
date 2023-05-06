@@ -69,8 +69,8 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
 
 1. Insert the two 1.5v batteries in the batterie holder, be sure you are placing the batteries with the correct polarities.
 2. Connect two connecting cables, one on each side of the baterrie holder connector.
-_   The red side of the connector has to be connected to the 3.3v pin on the ESP32.
-_	  The black side of the connector has to be connected to the GND pin on the ESP32.
+* The red side of the connector has to be connected to the 3.3v pin on the ESP32.
+* The black side of the connector has to be connected to the GND pin on the ESP32.
 3. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
 
 
