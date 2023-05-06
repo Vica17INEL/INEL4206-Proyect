@@ -43,11 +43,11 @@ Before starting the project, you need to have completed all the requirements:
 -	AWS server.
 
 ### How to upload the code to the cloud
--	Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
--	Connect the ESP32 to Wi-Fi.
--	Create a server in the cloud:
-  -  Must create an AWS account and buy a remote machine.
-  -  Must create an Ubuntu to add the IP address that’s going to be used.
+1. Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
+2. Connect the ESP32 to Wi-Fi.
+3. Create a server in the cloud:
+   -  Must create an AWS account and buy a remote machine.
+   -  Must create an Ubuntu to add the IP address that’s going to be used.
 
 ### Create the safety keys
 -	This is going to allow you to control the server with your computer.
@@ -65,7 +65,7 @@ Before starting the project, you need to have completed all the requirements:
 
 ## Powering our ESP32
 
-For an independent power supply to our device (ESP32) we used a Batterie holder with two 1.5v batteries to feed our circuit.
+For an independent power supply to our device (ESP32) we used a Batterie holder with two 1.5v batteries to feed our circuit:
 
 1. Insert the two 1.5v batteries in the batterie holder, be sure you are placing the batteries with the correct polarities.
 2. Connect two connecting cables, one on each side of the baterrie holder connector.
