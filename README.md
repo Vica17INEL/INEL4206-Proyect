@@ -54,18 +54,11 @@ Before starting the project, you need to have completed all the requirements:
    -  Must create an Ubuntu to add the IP address that’s going to be used.
 
 ### Create the safety keys
--	This is going to allow you to control the server with your computer.
+This is going to allow you to control the server with your computer.
 -	Enter the server through your computer.
--	Once you manage to get access you can start to download node-red.
--	Download the admins packs that come with node-red.
--	Open node-red in your browser utilizing 34.199.250.106:1880.
--	Open node red.
--	Once it’s open, create a flow that uses the aedes MQTT broker to receive the data collected by the ESP32.
--	Modify your code.
--	add the pubsubclient library in your code so you can connect to the MQTT broker.
--	Running the code
--	Build and upload the code to the ESP32 by connecting the device to your computer using the USB to USB mini cable.
--	Activate the shortcut in your smartphone to get the outputs, in our case we activate our shortcut by asking to our apple smartphone “Hey Siri, Where is my Trolley?”.
+-  Assign a Public IP to our server.
+-  Use PuTTYgen to create a public and private key.
+-  Add this keys to our Linux cloud host.
 
 ## Powering our ESP32
 
@@ -77,8 +70,8 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
    -  The black side of the connector has to be connected to the GND pin on the ESP32.
 4. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
 
-![](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/thumbnail_Image%20(1).jpg)
+![](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/PowerSupply_Connection.jpg)
 
 
 ## Results:
-the code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
+The code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
