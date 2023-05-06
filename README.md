@@ -73,6 +73,8 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
    -  The black side of the connector has to be connected to the GND pin on the ESP32.
 4. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
 
+![Test](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/thumbnail_Image%20(1).jpg)
+
 
 ## Results:
 the code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
