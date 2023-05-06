@@ -43,9 +43,9 @@ Before starting the project, you need to have completed all the requirements:
 -	AWS server.
 
 ### How to upload the code to the cloud
-1. Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
+1. Create a code that allows us to connect the ESP32 to a Wi-Fi network, this will allow us to constantly receive the trolley’s location.
 2. Connect the ESP32 to Wi-Fi.
-   -  We use a light emitter diode (LED) to confirm that the ESP32 has stablish the connection to the WI-FI, as shoen below:
+   -  We use a light emitter diode (LED) to confirm that the ESP32 has stablish the connection to the WI-FI, as shown below:
 
 ![Wifi connection](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/WIFI_Connected.jpg)
 
