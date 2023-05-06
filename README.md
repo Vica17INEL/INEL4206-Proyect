@@ -62,7 +62,14 @@ Before starting the project, you need to have completed all the requirements:
 	Build and upload the code to the ESP32 by connecting the device to your computer using the USB to USB mini cable.
 	Activate the shortcut in your smartphone to get the outputs, in our case we activate our shortcut by asking to our apple smartphone “Hey Siri, Where is my Trolley?”.
 ## Powering our ESP32
-	For an independent power supply to our device (ESP32) we used a Batterie holder with two 1.5v batteries to feed our circuit.
+For an independent power supply to our device (ESP32) we used a Batterie holder with two 1.5v batteries to feed our circuit.
+
+1. Insert the two 1.5v batteries in the batterie holder, be sure you are placing the batteries with the correct polarities.
+2. Connect two connecting cables, one on each side of the baterrie holder connector.
+ - The red side of the connector has to be connected to the 3.3v pin on the ESP32.
+ - The black side of the connector has to be connected to the GND pin on the ESP32.
+3. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
+
 
 ## Results:
 the code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
