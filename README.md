@@ -45,7 +45,10 @@ Before starting the project, you need to have completed all the requirements:
 ### How to upload the code to the cloud
 1. Create a code that allows us to connect the ESP32 to the Wi-Fi to constantly receive trolley’s location.
 2. Connect the ESP32 to Wi-Fi.
-3. Create a server in the cloud:
+   -  We use a light emitter diode (LED) to confirm that the ESP32 has stablish the connection to the WI-FI, as shoen below:
+![Wifi connection](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/PowerSupply_Connection.jpg)
+
+4. Create a server in the cloud:
    -  Must create an AWS account and buy a remote machine.
    -  Must create an Ubuntu to add the IP address that’s going to be used.
 
@@ -73,7 +76,7 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
    -  The black side of the connector has to be connected to the GND pin on the ESP32.
 4. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
 
-![Test](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/thumbnail_Image%20(1).jpg)
+![](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/thumbnail_Image%20(1).jpg)
 
 
 ## Results:
