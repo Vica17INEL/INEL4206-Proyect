@@ -76,14 +76,14 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
 
 We use this to create an interface and to able to pusblish all the data that gatters the ESP32, in our application this data is the location of the device. When using Node-red we have to different perpectives, the first one is similar to the backend were we create what our spected users will see and the other can be call the frontend, where all the data is being publish in a easy to undertand way.
 
-   - Frontend:
+   - Backend:
      - Pusblish nodes - we use this to gatter the data the ESP32 is sending through the MQTT broker and pass it to the other nodes that composed the dashboard.
      - aedes MQTT broker - Allows the connection from the ESP32 to Node-red
      - Audio - This node sends an audio message into the dashboard. In our case, this audio tells the actual location of the trolley to the user.
      - Text - This node pusblish the same message as the Audio node but, obviously, in text form. The main purpose is for the user to able to see the location even without having the audio on.
      - Notification node - Sends a pop-up notification to the dashboard. The main purpose of this is to let know the user everything is working and the data is being uploaded from the ESP32
 
-![Node-red/frontend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
+![Node-red/backend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_backend.png)
 
 
 ## Results:
