@@ -106,30 +106,36 @@ Serial.println(WiFi.SSID(i));
 
 delay(10);
 
-}
 
-if((WiFi.SSID(1) == "Stefani Building")){
-Serial.println("Test");
+String st = "Stefani Building";
+String sh = "Chardome";
+String si = "RUMNET";
+
+if((WiFi.SSID(i-1) ==  st)){
+Serial.println("Your trolley in Stephanie");
 client.setServer(mqttServer, mqttPort);
 client.setCallback(callback);
 client.publish(topic, "Your trolley in Stephanie");
 client.subscribe(topic);
+break;
 }
 
-else if(WiFi.SSID(1) == "Chardome"){
+else if(WiFi.SSID(i-1) == sh){
 Serial.println("Your trolley is in Chardome");
 client.setServer(mqttServer, mqttPort);
 client.setCallback(callback);
 client.publish(topic, "Your trolley is in Chardome");
 client.subscribe(topic);
+break;
 }
 
-else if(WiFi.SSID(1) == "RUMNET"){
+else if(WiFi.SSID(i-1) == si){
 Serial.println("Your trolley is in Lucchetti");
 client.setServer(mqttServer, mqttPort);
 client.setCallback(callback);
 client.publish(topic, "Your trolley is in Lucchetti");
 client.subscribe(topic);
+break;
 }
 else{
 Serial.println("No location found");
@@ -137,10 +143,12 @@ client.setServer(mqttServer, mqttPort);
 client.setCallback(callback);
 client.publish(topic, "Your trolley was not found");
 client.subscribe(topic);
-}
 
 }
 
+}
+
+}
 Serial.println("");
 
 xQueueSend(publish_queue, &n, (TickType_t) 0);
