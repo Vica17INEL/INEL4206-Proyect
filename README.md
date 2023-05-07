@@ -94,4 +94,6 @@ We use this to create an interface and to able to pusblish all the data that gat
 ![Frontend-view](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
 
 ## Results:
-The code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
+The code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented by the ESP32, and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy users access. In the image below we can see the final assembly of all the hardware:
+
+![Final-assembly-hardware](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/thumbnail_Image%20(1).jpg)
