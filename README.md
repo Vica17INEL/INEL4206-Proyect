@@ -77,6 +77,7 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
 We use this to create an interface and to able to pusblish all the data that gatters the ESP32, in our application this data is the location of the device. When using Node-red we have to different perpectives, the first one is similar to the backend were we create what our spected users will see and the other can be call the frontend, where all the data is being publish in a easy to undertand way.
 
    - Backend:
+
      - Pusblish nodes - we use this to gatter the data the ESP32 is sending through the MQTT broker and pass it to the other nodes that composed the dashboard.
      - aedes MQTT broker - Allows the connection from the ESP32 to Node-red
      - Audio - This node sends an audio message into the dashboard. In our case, this audio tells the actual location of the trolley to the user.
@@ -85,6 +86,12 @@ We use this to create an interface and to able to pusblish all the data that gat
 
 ![Node-red/backend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_backend.png)
 
+   - Frontend:
+
+     - This is the page the users will see as soon as they search for this website, if the smartphone shortcut was implemented, this will be the site the shortcut will open when activated. In our case, we are using an apple smartphone with a shorcut activated by voice commands through Siri, the command used is "Hey Siri, where is my Trolley?".
+     - In the image below we can see a look of how the frontend will see when the website is acccess.
+
+![Frontend-view](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
 
 ## Results:
 The code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented as the ESP32 and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy access.
