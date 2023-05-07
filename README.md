@@ -83,7 +83,7 @@ We use this to create an interface and to able to pusblish all the data that gat
      - Text - This node pusblish the same message as the Audio node but, obviously, in text form. The main purpose is for the user to able to see the location even without having the audio on.
      - Notification node - Sends a pop-up notification to the dashboard. The main purpose of this is to let know the user everything is working and the data is being uploaded from the ESP32
 
-![Node-red/frontend}(https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
+![Node-red/frontend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
 
 
 ## Results:
