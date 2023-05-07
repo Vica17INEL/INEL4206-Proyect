@@ -47,7 +47,7 @@ Before starting the project, you need to have completed all the requirements:
 2. Connect the ESP32 to Wi-Fi.
    -  We use a light emitter diode (LED) to confirm that the ESP32 has stablish the connection to the WI-FI, as shown below:
 
-![Wifi connection](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/WIFI_Connected.jpg)
+![Wifi connection](https://github.com/Vica17INEL/INEL4206-Proyect/blob/Images/WIFI_Connected.jpg)
 
 4. Create a server in the cloud:
    -  Must create an AWS account and buy a remote machine.
@@ -70,7 +70,7 @@ For an independent power supply to our device (ESP32) we used a Batterie holder 
    -  The black side of the connector has to be connected to the GND pin on the ESP32.
 4. Has soon as the 2 pins are connected to the batterie holder a green light on the ESP32 will turn on indicating the ESP32 has power.
 
-![](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/PowerSupply_Connection.jpg)
+![](https://github.com/Vica17INEL/INEL4206-Proyect/blob/Images/PowerSupply_Connection.jpg)
 
 ## Node-red
 
@@ -84,16 +84,16 @@ We use this to create an interface and to able to pusblish all the data that gat
      - Text - This node pusblish the same message as the Audio node but, obviously, in text form. The main purpose is for the user to able to see the location even without having the audio on.
      - Notification node - Sends a pop-up notification to the dashboard. The main purpose of this is to let know the user everything is working and the data is being uploaded from the ESP32
 
-![Node-red/backend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_backend.png)
+![Node-red/backend](https://github.com/Vica17INEL/INEL4206-Proyect/blob/Images/Dashboard_backend.png)
 
    - Frontend:
 
      - This is the page the users will see as soon as they search for this website, if the smartphone shortcut was implemented, this will be the site the shortcut will open when activated. In our case, we are using an apple smartphone with a shorcut activated by voice commands through Siri, the command used is "Hey Siri, where is my Trolley?".
      - In the image below we can see a look of how the frontend will see when the website is acccess.
 
-![Frontend-view](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Dashboard_frontend.png)
+![Frontend-view](https://github.com/Vica17INEL/INEL4206-Proyect/blob/Images/Dashboard_frontend.png)
 
 ## Results:
 The code worked as expect identifying the strongest WI-FI connection as the location of the trolley, the trolley being represented by the ESP32, and sending that data to the cloud server. Publishing that data on the Node-red dashboard for easy users access. In the image below we can see the final assembly of all the hardware:
 
-![Final-assembly-hardware](https://github.com/Vica17INEL/INEL4206-Proyect/blob/main/Final-Hardware-assembly.jpg)
+![Final-assembly-hardware](https://github.com/Vica17INEL/INEL4206-Proyect/blob/Images/Final-Hardware-assembly.jpg)
